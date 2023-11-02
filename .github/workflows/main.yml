@@ -8,7 +8,7 @@ jobs:
       - name: Use Node.js
         uses: action/setup-node@v2
         with: 
-          node-version: '20.x'
+          node-version: '18.x'
       - run: yarn
       - run: yarn lint
       - run: yarn ts-lint
